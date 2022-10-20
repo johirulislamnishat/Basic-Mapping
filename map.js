@@ -20,7 +20,7 @@ const fullName = users.map((user) => {
 // FullName: Christiano Ronaldo
 
 // create an array of object that contains
-const acc = {
+acc = {
   26: 2,
   33: 2,
   37: 1,
