@@ -28,7 +28,7 @@ acc = {
 
 let arr = [];
 let counter = {};
-users.map((user) => {
+const makeArrayOfObj = users.map((user) => {
   if (counter.hasOwnProperty(user.age)) {
     counter[user.age]++;
   } else {
